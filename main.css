@@ -116,7 +116,6 @@ body {
     font-weight: 600;
     margin: .7rem 0;
     padding: .4rem 1.2rem;
-    cursor: pointer;
     border: 3px solid var(--light-purple);
     background-color: var(--light-purple);
     color: var(--light);
@@ -156,7 +155,7 @@ body {
     display: block;
     background-color: var(--gray);
     color: var(--dark);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     transition: var(--transition);
     box-shadow: 0 4px 0 0 #bbbbbb;
 }
@@ -212,9 +211,9 @@ body {
     }
 }
 
-/* Summary Page */
+/* Summary View */
 
-.summary-page {
+.summary-view {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,9 +221,9 @@ body {
     max-width: 600px; /* Optional: Limit width for better readability */
     margin: auto;
     padding: 20px;
-    background-color: var(--gray); /* Background color for summary page */
+    background-color: var(--gray); /* Background color for summary view */
     border: 1px solid #ddd;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .incorrect-list {
@@ -248,6 +247,13 @@ body {
     border-radius: 0.5rem;
     margin-top: 20px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: var(--light);
+    color: var(--dark);
     border: 3px solid var(--light-purple);
 }
